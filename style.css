@@ -7,3 +7,10 @@ h1
 {
     color: darkblue;
 }
+img
+{
+    width: 300px;  
+    height: auto;  
+    text-align: center;  
+    padding: 15px;  
+}
