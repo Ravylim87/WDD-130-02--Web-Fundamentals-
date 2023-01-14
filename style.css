@@ -1,16 +1,12 @@
 body 
 {
-    background-color: papayawhip;
-
+  background-color: papayawhip;
+  font-size: 18px;
+  text-align: center;
 }
-h1
-{
-    color: darkblue;
-}
-img
-{
-    width: 300px;  
-    height: auto;  
-    text-align: center;  
-    padding: 15px;  
-}
+nav {
+    background-color: var(--nav-background-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+  }
