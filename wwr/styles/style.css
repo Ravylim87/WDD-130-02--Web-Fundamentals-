@@ -1,0 +1,77 @@
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+#backgroud {
+  height: 725px;
+  background-color: #8093f1;
+  color: #f3f33f;
+}
+body {
+  background-color: #8093f1;
+  color: #f3f33f;
+}
+header {
+  background-color: #1926b3;
+  color: #f3f33f;
+}
+nav a {
+  color: #f3f33f;
+}
+nav a:hover {
+  background-color: yellow;
+  color: blue;
+}
+.book {
+  background-color: #8093f1;
+  color: #f3f33f;
+}
+.join {
+  background-color: #8093f1;
+  color: #f3f33f;
+}
+.book:hover {
+  background-color: #8093f1;
+  color: #1926b3;
+}
+
+.join:hover {
+  background-color: yellow;
+  color: blue;
+}
+
+.msg {
+  background-color: #8093f1;
+  color: yellow;
+}
+.msg h2 {
+  background-color: #8093f1;
+  color: yellow;
+}
+.msg p {
+  background-color: #8093f1;
+  color: yellow;
+}
+
+footer {
+  background-color: #1926b3;
+  color: #f3f33f;
+}
+footer a {
+  background-color: #1926b3;
+  color: #f3f33f;
+}
+footer a:hover {
+  background-color: #f3f33f;
+  color: #1926b3;
+}
+
+.home-title {
+  background-color: #1926b3;
+  color: #f3f33f;
+}
+
+h4 {
+  background-color: #1926b3;
+  color: #f3f33f;
+}
