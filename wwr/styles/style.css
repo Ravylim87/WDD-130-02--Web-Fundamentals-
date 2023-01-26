@@ -11,7 +11,7 @@ body {
   color: #f3f33f;
 }
 header {
-  background-color: #8093f1;
+  background-color: #4f38c2;
   color: #f3f33f;
 }
 
@@ -48,34 +48,34 @@ main section{
   color: #1926b3;
 }
 .join {
-  background-color:aliceblue;
+  background-color:yellow;
   color:#1926b3 ;
   text-decoration: none;
 }
 .join:hover {
-  background-color: yellow;
+  background-color: paleturquoise;
   color: red;
 }
 
 .msg {
-  background-color: #8093f1;
+  background-color: #4f38c2;
   color: yellow;
 }
 .msg h2 {
-  background-color: #8093f1;
+  background-color: #4f38c2;
   color: yellow;
 }
 .msg p {
-  background-color: #8093f1;
+  background-color: #4f38c2;
   color: yellow;
 }
 
 footer {
-  background-color: #8093f1;
+  background-color: #4f38c2;
   color: #f3f33f;
 }
 footer a {
-  background-color: #8093f1;
+  background-color: #4f38c2;
   color: #f3f33f;
   text-decoration: none;
 }
