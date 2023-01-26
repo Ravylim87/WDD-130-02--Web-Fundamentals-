@@ -2,10 +2,9 @@
   max-width: 1600px;
   margin: 0 auto;
 }
-#backgroud {
+#background {
   height: 725px;
-  background-color: #1926b3;
-  color: #f3f33f;
+  background-color: #f3f33f;
 }
 body {
   background-color: #1926b3;
@@ -49,25 +48,25 @@ main section{
   color: #1926b3;
 }
 .join {
-  background-color: #1926b3;
-  color: #f3f33f;
+  background-color:aliceblue;
+  color:#1926b3 ;
   text-decoration: none;
 }
 .join:hover {
   background-color: yellow;
-  color: blue;
+  color: red;
 }
 
 .msg {
-  background-color: #1926b3;
+  background-color: #8093f1;
   color: yellow;
 }
 .msg h2 {
-  background-color: #1926b3;
+  background-color: #8093f1;
   color: yellow;
 }
 .msg p {
-  background-color: #1926b3;
+  background-color: #8093f1;
   color: yellow;
 }
 
