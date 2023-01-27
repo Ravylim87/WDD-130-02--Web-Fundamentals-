@@ -39,12 +39,12 @@ main section{
   text-align: center;
 }
 .book {
-  background-color: #1926b3;
-  color: #f3f33f;
+  background-color: yellow;
+  color: #4f38c2;
   text-decoration: none;
 }
 .book:hover {
-  background-color: yellow;
+  background-color: paleturquoise;
   color: #1926b3;
 }
 .join {
