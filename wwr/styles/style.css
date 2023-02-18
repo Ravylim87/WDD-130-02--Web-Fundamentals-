@@ -132,7 +132,7 @@ footer a {
   color: #f3f33f;
   text-decoration: none;
 }
-footer a:hover {
+footer p a:hover {
   background-color: #f3f33f;
   color: #1926b3;
 }
@@ -195,6 +195,7 @@ h4 {
   border: 10px solid #f3f33f;
   width: 100%;
   transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
 }
 .card-img:hover {
   opacity: 0.6;
@@ -252,5 +253,8 @@ h4 {
   }
   footer {
     margin-top: 25px;
+  }
+  #copyright{
+    font-size: 0.68em;
   }
 }
