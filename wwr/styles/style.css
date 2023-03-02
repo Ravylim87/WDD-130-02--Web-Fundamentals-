@@ -154,7 +154,7 @@ footer .social img {
 }
 .home-grid {
   display: grid;
-  grid-template-columns: Repeat(10, 1fr);
+  grid-template-columns: repeat(10, 1fr);
 }
 h2 {
   margin: 0;
@@ -162,6 +162,7 @@ h2 {
 
 h4 {
   color: #f3f33f;
+  margin-bottom: 10px;
 }
 .logo {
   width: 80px;
@@ -209,11 +210,114 @@ h4 {
   box-shadow: 5px 5px 10px #6f7364;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:30px;
+  color:#ccc;
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+.faq-grid{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.faq{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  font-size: 30px;
+  margin-left: 100px;
+}
+.rate{
+  display: block;
+  text-align: center;
+  margin-left: 30%;
+}
+.place-history{
+  grid-row: 1/2;
+  grid-column: 2/3;
+  margin-top: 70px;
+  margin-left: 200px;
+  font-size: 14px;
+}
+.old-rafting{
+  max-width: 100%;
+  margin: 0 auto;
+}
+input{
+  font-size: 40px;
+}
+.satify{
+  margin-top: 60px;
+  color: red;
+  font-size: 1em;
+}
+
+
+#questions a{
+  margin-top: 5px;
+  display: block;
+  text-decoration: none;
+  color: #1926b3;
+  font-size: 30px;
+  background-color: #f3f33f;
+  transition: transform 0.5s;
+}
+#questions a:hover{
+  background-color: powderblue;
+  color: red;
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+#backNextButton a{
+  text-decoration: none;
+  color: #1926b3;
+  border: solid peachpuff;
+  background-color: antiquewhite;
+}
+#backNextButton a:hover{
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 900px) {
   #hero,
   .home-grid {
     display: block;
     height: auto;
+  }
+  h1{
+    margin-bottom: 10px;
   }
   nav,
   footer {
